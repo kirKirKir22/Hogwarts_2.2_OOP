@@ -44,7 +44,7 @@ public class HufflepuffFaculty extends Hogwarts {
     @Override
     public String toString() {
 
-        return toStringHogwarts() + " трудолюбие: " + getHardWork() +
+        return super.toString() + " трудолюбие: " + getHardWork() +
                 " верность: " + getLoyalty() + " честность: " + getHonesty();
     }
 

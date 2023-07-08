@@ -66,7 +66,7 @@ public class SlytherinlFaculty extends Hogwarts {
     @Override
     public String toString() {
 
-        return toStringHogwarts() + " хитрость: " + getCunning() + " решительность: "
+        return super.toString() + " хитрость: " + getCunning() + " решительность: "
                 + getDetermination() + " амбициозность: " + getAmbition() + " находчивость: "
                 + getResourcefulness() + " жажда власти: " + getDominance();
     }

@@ -55,7 +55,7 @@ public class RavenclawFaculty extends Hogwarts {
     @Override
     public String toString() {
 
-        return toStringHogwarts() + " ум: " + getMind() + " мудрость: " + getWisdom() +
+        return super.toString() + " ум: " + getMind() + " мудрость: " + getWisdom() +
                 " остроумие: " + getWit() + " полнота творчеством: " + getCreativity();
     }
 

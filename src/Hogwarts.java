@@ -44,7 +44,8 @@ public abstract class Hogwarts {
         this.transgressionDistance = transgressionDistance;
     }
 
-    public String toStringHogwarts() {
+    @Override
+    public String toString() {
 
         return "Студент: "
                 + getName() + " "
